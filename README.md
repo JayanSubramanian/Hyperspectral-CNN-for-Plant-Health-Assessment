@@ -70,7 +70,7 @@ You can download the original `.mat` files from the [University of Southern Miss
 2. Ensure `indianpinearray.npy` and `IPgt.npy` are in the working directory
 3. Run the script:
    ```bash
-   python main.py
+   python model.py
    ```
 
 The script trains the model, evaluates accuracy, computes NDVI/LCI, predicts the entire image, and saves a visualization as `visualization_output.png`.
@@ -88,7 +88,7 @@ This method can be adapted for:
 
 ## 📎 **Files Included**
 
-- `main.py`: End-to-end training, evaluation, and visualization
+- `model.py`: End-to-end training, evaluation, and visualization
 - `indianpinearray.npy`: Hyperspectral image data (user-provided)
 - `IPgt.npy`: Ground truth labels (user-provided)
 - `image.png`: Final output visualization
