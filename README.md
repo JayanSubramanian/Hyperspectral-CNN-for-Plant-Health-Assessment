@@ -43,14 +43,10 @@ You can download the original `.mat` files from the [University of Southern Miss
 ## 🌿 **Vegetation Indices Computed**
 
 - **NDVI (Normalized Difference Vegetation Index)**  
-  \[
-    ext{NDVI} = rac{	ext{NIR} - 	ext{RED}}{	ext{NIR} + 	ext{RED}}
-  \]
+  $$\text{NDVI} = \frac{\text{NIR} - \text{RED}}{\text{NIR} + \text{RED}}$$
 
 - **LCI (Leaf Chlorophyll Index)**  
-  \[
-    ext{LCI} = rac{	ext{NIR} - 	ext{GREEN}}{	ext{NIR} + 	ext{GREEN}}
-  \]
+  $$\text{LCI} = \frac{\text{NIR} - \text{GREEN}}{\text{NIR} + \text{GREEN}}$$
 
 - NIR Band = 48  
 - RED Band = 29  
